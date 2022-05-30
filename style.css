@@ -28,7 +28,7 @@
 
 }
 
-.centered-main-page-element {
+.container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -152,7 +152,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks .item-label {
+#completed .item-label {
   text-decoration: line-through;
   color: #888;
 }
