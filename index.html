@@ -7,52 +7,52 @@
   </head>
   <body class="main-page">
     <header class="header-info">
-      <img class="header-img" src="./eisenhower-matrix.jpg" alt="application image">
-      <a class="more-inf"
+      <img class="header-info__img" src="./eisenhower-matrix.jpg" alt="application image">
+      <a class="header-info__more-inf"
           href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?
       </a>
     </header>
     <main class="container">
-      <section id="add-item">
-        <label class="item-label" for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task" class="text-input task" type="text">
-          <button class="button-base">Add</button>
+      <section id="add-item" class="todo-block">
+        <label class="todo-block__item-label" for="new-task">Add Item</label>
+        <div class="todo-block__task-row-wrapper">
+          <input id="new-task" class="todo-block__text-input task" type="text">
+          <button class="todo-block__button-base">Add</button>
         </div>
       </section>
-      <section>
-        <h3 class="section-header">Todo</h3>
+      <section class="todo-block">
+        <h3 class="todo-block__section-header">Todo</h3>
         <ul id="incomplete">
-          <li class="item-list">
+          <li class="todo-block__item-list">
             <input class="input-checkbox" type="checkbox">
-            <label class="item-label task">Pay Bills</label>
-            <input type="text" class="text-input task" value="Pay Bills">
-            <button class="button-base edit">Edit</button>
-            <button class="button-base delete">
+            <label class="todo-block__item-label task">Pay Bills</label>
+            <input type="text" class="todo-block__text-input task" value="Pay Bills">
+            <button class="todo-block__button-base edit">Edit</button>
+            <button class="todo-block__button-base todo-block__button-base_delete">
               <img class="remove-img" src="./remove.svg" alt="remove sticker">
             </button>
           </li>
-          <li class="item-list edit-mode">
+          <li class="todo-block__item-list todo-block__item-list_edit-mode">
             <input class="input-checkbox" type="checkbox">
-            <label class="item-label task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="text-input task">
-            <button class="button-base edit">Save</button>
-            <button class="button-base delete">
+            <label class="todo-block__item-label task">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="todo-block__text-input task">
+            <button class="todo-block__button-base edit">Save</button>
+            <button class="todo-block__button-base todo-block__button-base_delete">
               <img class="remove-img" src="./remove.svg" alt="remove sticker">
             </button>
          </li>
         </ul>
       </section>
-      <section>
-        <h3 class="section-header">Completed</h3>
+      <section class="todo-block">
+        <h3 class="todo-block__section-header">Completed</h3>
         <ul id="completed">
-          <li class="item-list">
+          <li class="todo-block__item-list">
             <input class="input-checkbox" type="checkbox" checked>
-            <label class="item-label task">See the Doctor</label>
-            <input type="text" class="text-input task">
-            <button class="button-base edit">Edit</button>
-            <button class="button-base delete">
+            <label class="todo-block__item-label task">See the Doctor</label>
+            <input type="text" class="todo-block__text-input task">
+            <button class="todo-block__button-base edit">Edit</button>
+            <button class="todo-block__button-base todo-block__button-base_delete">
               <img class="remove-img" src="./remove.svg" alt="remove sticker">
             </button>
           </li>
